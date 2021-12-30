@@ -1,0 +1,1 @@
+getnumsyscalls and getnumsyscallsgood test: Parent process call two syscalls on the child process pid when it is runing and after died.

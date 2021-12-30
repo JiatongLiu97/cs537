@@ -1,0 +1,1 @@
+compensation related test - two processes, parent sleeps for shorter than child timeslice, checks sleepticks & compticks

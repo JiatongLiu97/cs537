@@ -1,0 +1,1 @@
+Verify that shared memory is properly created in /dev/shm and unlinked on SIGINT

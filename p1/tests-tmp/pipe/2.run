@@ -1,0 +1,1 @@
+./my-rev -f tests-tmp/pipe/2.target 2> /dev/null | ./my-look hs 2> /dev/null

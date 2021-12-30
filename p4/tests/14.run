@@ -1,0 +1,9 @@
+cd src;
+rm -rf param_old.h;
+mv param.h param_old.h;
+sed -E 's/((^|(\t| ))*CLOCKSIZE)(\t| )*[^ ]*/\3CLOCKSIZE\t128/' param_old.h > param.h;
+make -f Makefile.test clean > /dev/null 2>&1;
+make -f Makefile.test xv6.img > /dev/null 2>&1;
+make -f Makefile.test fs.img > /dev/null 2>&1;
+../../tester/run-xv6-command.exp CPUS=1 Makefile.test test_14 | grep XV6_TEST_OUTPUT; 
+cd ..

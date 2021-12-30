@@ -1,0 +1,4 @@
+/bin/echo hello world >tests-out/tmp.txt
+/bin/cat tests-out/tmp.txt
+hello world
+exit

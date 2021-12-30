@@ -1,0 +1,1 @@
+getnumsyscallsgood test: pipe(), write(), read(), close(), dup() and child process behavior 

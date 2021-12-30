@@ -1,0 +1,13 @@
+echo "alias ls /bin/ls tests" > tests/19.out &&
+echo "alias" >> tests/19.out &&
+echo "ls /bin/ls tests" >> tests/19.out &&
+echo "ls" >> tests/19.out &&
+ls tests >> tests/19.out &&
+
+echo "alias ls /bin/cat tests/19.desc" >> tests/19.out &&
+echo "alias" >> tests/19.out &&
+echo "ls /bin/cat tests/19.desc" >> tests/19.out &&
+echo "ls" >> tests/19.out &&
+cat tests/19.desc >> tests/19.out &&
+
+echo "exit" >> tests/19.out

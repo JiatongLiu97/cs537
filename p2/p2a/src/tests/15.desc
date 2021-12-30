@@ -1,0 +1,1 @@
+getnumsyscallsgood test: call getnumsyscalls, getnumsyscallsgood, sbrk

@@ -1,0 +1,2 @@
+bash tests/stat_test.sh 8       12      20      1     "/output.cgi?0.1"
+#                       threads buffers clients loops requests

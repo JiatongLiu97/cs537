@@ -1,0 +1,1 @@
+cd src; ../../tester/run-xv6-command-user.exp CPUS=1 Makefile.test schedtest 4 3 5 5 100 | grep -A 1 schedtest; cd ..

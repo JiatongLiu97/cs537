@@ -1,0 +1,2 @@
+bash tests/stat_test.sh 32      16      40      5     "/output.cgi?0.1" "/home.html" "/favicon.ico"
+#                       threads buffers clients loops requests

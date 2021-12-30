@@ -1,0 +1,1 @@
+getnumsyscalls and getnumsyscallsgood: fork with good and bad calls of pipe, wait, close, dup, exec, write, read

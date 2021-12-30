@@ -1,0 +1,1 @@
+[8] Test child process will inherit all pte flags and clock queue information with CLOCKSIZE = 8

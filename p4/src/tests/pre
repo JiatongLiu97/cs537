@@ -1,0 +1,28 @@
+../tester/xv6-edit-makefile.sh src/Makefile schedtest,loop,test_2,test_3,test_4,test_5,test_6,test_7,test_8,test_9,test_10,test_11,test_12,test_13,test_14,test_15,test_16,test_17,test_18 > src/Makefile.test
+
+cp -f tests/test_2.c src/test_2.c
+cp -f tests/test_3.c src/test_3.c
+cp -f tests/test_4.c src/test_4.c
+cp -f tests/test_5.c src/test_5.c
+cp -f tests/test_6.c src/test_6.c
+cp -f tests/test_7.c src/test_7.c
+cp -f tests/test_8.c src/test_8.c
+cp -f tests/test_9.c src/test_9.c
+cp -f tests/test_10.c src/test_10.c
+cp -f tests/test_11.c src/test_11.c
+cp -f tests/test_12.c src/test_12.c
+cp -f tests/test_13.c src/test_13.c
+cp -f tests/test_14.c src/test_14.c
+cp -f tests/test_15.c src/test_15.c
+cp -f tests/test_16.c src/test_16.c
+cp -f tests/test_17.c src/test_17.c
+cp -f tests/test_18.c src/test_18.c
+
+mv src/param.h src/param_old.h
+sed -E 's/((^| )FSSIZE)(\t| )*[^ ]*/\3FSSIZE\t2000/' src/param_old.h > src/param.h
+
+cd src
+make -f Makefile.test clean
+make -f Makefile.test xv6.img
+make -f Makefile.test fs.img
+cd ..

@@ -1,0 +1,1 @@
+./my-look -V -h $(< tests-tmp/my-look/14.target) 2> /dev/null

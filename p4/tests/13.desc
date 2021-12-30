@@ -1,0 +1,1 @@
+[8] Test child process's clock queue is properly cloned from parent's clock queue when it executed with CLOCKSIZE = 8

@@ -1,0 +1,1 @@
+cat tests-tmp/dictionary | ./my-look $(< tests-tmp/my-look/3.target) 2> /dev/null

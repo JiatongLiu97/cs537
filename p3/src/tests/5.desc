@@ -1,0 +1,1 @@
+new syscall test - setslice() on negative pid and with negative timeslice, should both return -1

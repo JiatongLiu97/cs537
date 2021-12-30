@@ -1,0 +1,1 @@
+./my-rev -V 2> /dev/null

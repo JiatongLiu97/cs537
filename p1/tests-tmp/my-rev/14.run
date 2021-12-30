@@ -1,0 +1,1 @@
+./my-rev -V -h -f tests-tmp/my-rev/14.target 2> /dev/null

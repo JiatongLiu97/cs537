@@ -1,0 +1,1 @@
+./my-look -f tests-tmp/dictionary $(< tests-tmp/my-look/8.target) 2> /dev/null

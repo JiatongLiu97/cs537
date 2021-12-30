@@ -1,0 +1,1 @@
+[8] Allocate one pages and verify it can be decrypted after access with CLOCKSIZE = 8

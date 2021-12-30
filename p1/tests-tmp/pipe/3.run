@@ -1,0 +1,2 @@
+./my-look -f tests-tmp/dictionary ada 2> /dev/null | ./my-rev 2> /dev/null
+

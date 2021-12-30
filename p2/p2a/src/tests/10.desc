@@ -1,0 +1,1 @@
+getnumsyscallsgood test: negative pid -1 

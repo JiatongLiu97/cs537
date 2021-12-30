@@ -1,0 +1,1 @@
+[8] Test whether getpgtable could filter the page which is not on the clock queue and CLOCKSIZE = 8

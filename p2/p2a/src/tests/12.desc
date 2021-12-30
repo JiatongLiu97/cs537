@@ -1,0 +1,2 @@
+getnumsyscallsgood test: call sleep(1) and uptime()
+

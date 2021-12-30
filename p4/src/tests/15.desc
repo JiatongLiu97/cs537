@@ -1,0 +1,1 @@
+compensation related test - two children, one uses part of comp ticks, remainder should not accumulate on next cycle

@@ -1,0 +1,1 @@
+compensation related test - one process loops on sleep(5) and do workload, compticks used should progress along the way

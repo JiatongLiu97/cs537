@@ -1,0 +1,5 @@
+echo "/bin/ls tests" > tests/3.out &&
+ls tests >> tests/3.out &&
+echo "/bin/cat tests/3.desc" >> tests/3.out &&
+cat tests/3.desc >> tests/3.out &&
+echo "exit" >> tests/3.out

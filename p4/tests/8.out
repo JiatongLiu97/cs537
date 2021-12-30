@@ -1,0 +1,4 @@
+XV6_TEST_OUTPUT Index 0: pdx: 0x0, ptx: 0x9, writable bit: 1, encrypted: 0, ref: 1
+XV6_TEST_OUTPUT Index 1: pdx: 0x0, ptx: 0x8, writable bit: 1, encrypted: 0, ref: 0
+XV6_TEST_OUTPUT Index 2: pdx: 0x0, ptx: 0x7, writable bit: 1, encrypted: 1, ref: 0
+XV6_TEST_OUTPUT Index 3: pdx: 0x0, ptx: 0x6, writable bit: 1, encrypted: 0, ref: 0

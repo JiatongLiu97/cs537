@@ -1,0 +1,45 @@
+0
+0
+0 /bin/echo 0
+1
+1
+1 /bin/echo 1
+2
+2
+2 /bin/echo 2
+3
+3
+3 /bin/echo 3
+4
+4
+4 /bin/echo 4
+5
+5
+5 /bin/echo 5
+6
+6
+6 /bin/echo 6
+7
+7
+7 /bin/echo 7
+7 /bin/echo 7
+8
+8
+8 /bin/echo 8
+9
+9
+9 /bin/echo 9
+9 /bin/echo 9
+alias
+alias 0 /bin/echo 0
+alias 1 /bin/echo 1
+alias 2 /bin/echo 2
+alias 3 /bin/echo 3
+alias 4 /bin/echo 4
+alias 5 /bin/echo 5
+alias 6 /bin/echo 6
+alias 7
+alias 7 /bin/echo 7
+alias 8 /bin/echo 8
+alias 9
+alias 9 /bin/echo 9

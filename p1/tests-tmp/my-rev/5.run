@@ -1,0 +1,1 @@
+cat tests-tmp/my-rev/5.target | ./my-rev 2> /dev/null

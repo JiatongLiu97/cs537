@@ -1,0 +1,6 @@
+/bin/echo 1 > tests-out/1.tmp
+/bin/echo 2 > tests-out/2.tmp
+/bin/echo 3 > tests-out/3.tmp
+/bin/cat tests-out/1.tmp
+/bin/cat tests-out/2.tmp
+/bin/cat tests-out/3.tmp

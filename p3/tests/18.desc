@@ -1,0 +1,1 @@
+extra safety check - process setslice of itself to 100, should reflect immediately in the cycle

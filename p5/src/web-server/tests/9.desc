@@ -1,0 +1,1 @@
+Verify that shared memory is properly created in /dev/shm and that the size is PAGESIZE

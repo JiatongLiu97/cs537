@@ -1,0 +1,1 @@
+new syscall test - fork2() with negative timeslice, getslice() with negative pid, should both return -1

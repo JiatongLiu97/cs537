@@ -1,0 +1,2 @@
+exit
+/bin/echo "this should not print"

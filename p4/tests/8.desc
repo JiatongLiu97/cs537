@@ -1,0 +1,1 @@
+[8] Allocate multiple pages that will make one extra pages evicted with CLOCKSIZE = 8

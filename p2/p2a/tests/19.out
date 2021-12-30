@@ -1,0 +1,6 @@
+XV6_TEST_OUTPUT [parent] 11 checkpoint1
+XV6_TEST_OUTPUT [parent] child getnumsyscalls 4
+XV6_TEST_OUTPUT [parent] child getnumsyscallsgood 1
+XV6_TEST_OUTPUT [child] 11 checkpoint2
+XV6_TEST_OUTPUT [parent] child getnumsyscalls -1
+XV6_TEST_OUTPUT [parent] child getnumsyscallsgood -1

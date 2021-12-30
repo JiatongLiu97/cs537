@@ -1,0 +1,2 @@
+/bin/echo this is a test
+/bin/cat tests/5.desc

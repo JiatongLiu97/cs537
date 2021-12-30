@@ -1,0 +1,1 @@
+killall -q -u $USER -s SIGKILL server ; rm -rf /dev/shm/$TEST_SHM_NAME

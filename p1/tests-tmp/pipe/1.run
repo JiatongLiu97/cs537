@@ -1,0 +1,1 @@
+./my-look -f tests-tmp/dictionary zoological 2> /dev/null | ./my-rev 2> /dev/null
