@@ -5,5 +5,5 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./p3)
 <!-- If you have screenshots you'd like to share, include them here. -->
