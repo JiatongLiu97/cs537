@@ -19,9 +19,11 @@ You will add two related system calls to xv6:
 
 - int getnumsyscalls(int pid)  returns the number of system calls that the process identified by pid has completed (not just initiated); calls to getnumsyscalls(), getnumsyscallsgood(), fork(), exec(), and sbrk() should not be counted in that total*. Returns -1 if pid is not a valid pid.
 - int getnumsyscallsgood(int pid)  returns the number of system calls that the process identified by pid has completed successfully (i.e., with a return code that is not -1); calls to getnumsyscalls(), getnumsyscallsgood(), fork(), exec(), and sbrk() should not be counted in this total. Returns -1 if pid is not a valid pid.
+
 So that you can test your system calls, you should also create a user-level application with the following behavior:
 
 - syscalls N g. This program takes two arguments: N, which is the total number of system calls that it should make, and g, which is the number of those which should be successful. Note that N and g should >= 1 because you always need a syscall getpid() to know the pid of the current running process. You can choose to make any system calls that you know will be successful or unsuccessful; you can perform those system calls in any order you choose. After this work has been done, it should print out two values: the value returned by getnumsyscalls(mypid) and the value returned by getnumsyscallsgood(mypid). For example, if you run the program as "syscalls 20 5" the output should be exactly "20 5\n". You can handle errors (e.g., an incorrect number of arguments or the number of good system calls is greater than the total number of calls however you choose) but we won't test it. 
+
 You must use the names of the system call and the application exactly as specified!
 
 *Note:
