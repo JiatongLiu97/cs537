@@ -1,4 +1,5 @@
-# COMPSCI537: Introduction to Operating Systems 
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+# CS537: Introduction to Operating Systems 
+This repository contains all course proejcts in course CS537.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+## Course Overview
+Welcome to your first course in operating systems! This course will introduce you to an exciting range of material from the broad field of operating systems, including basic operating system structure, process and thread synchronization, and concurrency, file systems, and storage servers, memory management techniques, process scheduling and resource management, virtualization, and even distributed systems (a little).
